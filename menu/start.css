@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(https://i.pinimg.com/564x/16/d3/92/16d39236c4c63867be0dadb463f546ea.jpg);
+}
+.menu {
+  background-color: blueviolet;
+  border: 5px double rgb(255, 255, 255);
+  border-radius: 5vh;
+  width: 80vw;
+  height: 97vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.div1 {
+  position: fixed;
+  top: 4;
+  overflow: hidden;
+  width: 80vw;
+  background-color: gold;
+  border-radius: 4.5vh 4.5vh 0 0;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  height: 90%;
+  position: fixed;
+  width: 80vw;
+  height: 86.4vh;
+}
+.in1 {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  border-radius: 0 0 0 4.5vh;
+  flex-grow: 1;
+}
+.in2 {
+  background-color: aqua;
+  flex-grow: 4;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-radius: 0 0 4.5vh 0;
+}
+.in2::-webkit-scrollbar {
+  display: none;
+}
+.mn {
+  display: flex;
+  flex-direction: row;
+  height: 410px;
+}
+.img {
+  background-color: brown;
+  flex-grow: 1;
+}
+.li {
+  flex-grow: 2;
+}
+.img1 {
+  background-image: url(images/cake.png);
+}
+.img2 {
+  background-image: url(images/icecream.png);
+}
+.img3 {
+  background-image: url(images/drinks.png);
+}
+.img4 {
+  background-image: url(images/coffee.png);
+}
+.img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
