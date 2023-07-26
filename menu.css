@@ -26,13 +26,13 @@ body {
   padding-right: 40px;
   background-color: var(--red3);
   border-radius: 3.4vh 3.4vh 0 0;
-  height: 80px;
+  height: 12vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .logo {
-  background-image: url(img/HfAWrLNfTXtVOmb.png);
+  background-image: url(images/HfAWrLNfTXtVOmb.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,10 +73,10 @@ a:hover {
 .div2 {
   display: flex;
   flex-direction: row;
-  margin-top: 80px;
+  margin-top: 12vh;
   position: fixed;
   width: 80vw;
-  height: 82.2vh;
+  height: 82.6vh;
   border-top: 3px var(--red2) dashed;
 }
 
@@ -116,16 +116,16 @@ a:hover {
   background-position: center;
 }
 .img1 {
-  background-image: url(img/cake.png);
+  background-image: url(images/cake.png);
 }
 .img2 {
-  background-image: url(img/icecream.png);
+  background-image: url(images/icecream.png);
 }
 .img3 {
-  background-image: url(img/drinks.png);
+  background-image: url(images/drinks.png);
 }
 .img4 {
-  background-image: url(img/coffee.png);
+  background-image: url(images/coffee.png);
 }
 .li {
   font-size: 20px;
